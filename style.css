@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.listProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.listTitlesDiv{
+    margin-top: 20px;
+    display: flex; 
+    max-width: 600px;
+    width: 100%;
+    padding-left: 10px;
+    color: darkgray;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.listTitle{
+    display: flex;
+}
+.createListDiv{
+    display: flex;
+    max-width: 600px;
+    padding-left: 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.createInput{
+   margin-top: 10px;
+   width: 500px;
+   height: 30px;
+   margin-bottom: 10px;
+   border-right: none;
+}
+.createBtn{
+   cursor: pointer; 
+   margin-top: 10px;
+   width: 85px;
+   margin-bottom: 10px; 
+   color: rgb(217, 99, 40);
+   border: 1px solid green;
+}
+.createBtn:hover{
+    background: green;
+    color: #fff;
+}
+.listTextDiv{
+    display: flex;
+    max-width: 600px;
+    padding-left: 10px;
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid black; 
+    border-bottom: none; 
+    flex-direction: column;
+}
+/* product */
+.product{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+}
+.removeProduct{
+    font-size: 17px;
+    margin-top: 18px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: red;
+}
+.productTitle{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.71);
+    padding-right: 10px;
+    width: 550px;
+}
+.deleteAll{
+    min-height: 60px;
+    cursor: pointer;
+    display: flex;
+    color: red;
+    justify-content: center;
+    max-width: 600px;
+    padding-left: 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-top: none;
+}
+.deleteAllBtn{
+    display: none;
+}
+@media(max-width:640px){
+    .listTitlesDiv{
+        max-width: 500px;
+    }
+    .createListDiv{
+        max-width: 500px;
+    }
+    .createInput{
+        width: 400px;
+    }
+    .listTextDiv{
+        max-width: 500px;
+    }
+    .deleteAll{
+        max-width: 500px;
+    }
+}
+@media(max-width:530px){
+    .listTitlesDiv{
+        max-width: 400px;
+    }
+    .createListDiv{
+        max-width: 400px;
+    }
+    .createInput{
+        width: 300px;
+    }
+    .listTextDiv{
+        max-width: 400px;
+    }
+    .deleteAll{
+        max-width: 400px;
+    }
+}
+@media(max-width:430px){
+    .listTitlesDiv{
+        max-width: 300px;
+    }
+    .createListDiv{
+        max-width: 300px;
+    }
+    .createInput{
+        width: 200px;
+    }
+    .listTextDiv{
+        max-width: 300px;
+    }
+    .deleteAll{
+        max-width: 300px;
+    }
+}
+@media(max-width:320px){
+    .listTitlesDiv{
+        max-width: 260px;
+    }
+    .createListDiv{
+        max-width: 260px;
+    }
+    .createInput{
+        width: 160px;
+    }
+    .listTextDiv{
+        max-width: 260px;
+    }
+    .deleteAll{
+        max-width: 260px;
+    }
+}
